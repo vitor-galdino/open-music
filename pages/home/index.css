@@ -1,0 +1,152 @@
+.genre-box {
+    margin: 4.0625rem 0 3.75rem;
+}
+
+.genre-box h2 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-2);
+    margin-bottom: 1.5rem;
+}
+
+.genre-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.genre-filter button {
+    padding: .5rem .5rem;
+}
+
+.price-filter {
+    user-select: none;
+}
+
+.price-filter .price-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-filter .price-info label {
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    margin-bottom: 2rem;
+}
+
+.price-filter .price-info label:nth-child(2) {
+    font-weight: 500;
+    color: var(--color-grey-2);
+}
+
+.range-filter {
+    -webkit-appearance: none;
+    background: var(--color-brand-1);
+    height: 8px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.range-filter::-webkit-slider-thumb {
+    border: 6px solid var(--color-brand-1);
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    background: var(--color-grey-9);
+    -webkit-appearance: none;
+}
+
+.albums-card {
+    margin: 3.75rem 0 4.375rem;
+}
+
+.albums-card h2 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-2);
+    margin-bottom: 3.75rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 38px;
+}
+
+.cards li {
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+.cards li:hover .content-box {
+    background-color: var(--color-grey-7);
+}
+
+.cards li:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.cards li:hover button {
+    background-color: var(--color-grey-8);
+}
+
+.cards li img {
+    width: 19.25rem;
+    height: 7.0625rem;
+    border-radius: 4px 4px 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.cards li .content-box {
+    position: relative;
+    padding: 1rem 1rem;
+    height: 9.125rem;
+    background-color: var(--color-grey-8);
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.cards li .info-box {
+    display: flex;
+    gap: 20px;
+}
+
+.cards li .info-box span {
+    font-weight: 500;
+    font-size: var(--font-4);
+    color: var(--color-grey-2);
+}
+
+.cards li .content-box h3 {
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+}
+
+.cards li .buy-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards li .buy-box span {
+    font-weight: 600;
+    font-size: var(--font-3);
+    color: var(--color-grey-1);
+}
+
+.cards li .buy-box button {
+    padding: .5rem .5rem;
+}
+
+.warning-span {
+    color: var(--color-grey-2);
+}
