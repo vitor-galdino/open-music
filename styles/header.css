@@ -1,0 +1,12 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.main-header h1 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-1);
+}
